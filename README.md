@@ -1,3 +1,17 @@
+Technology- React JS, AXIOS, Unplahed API, Html5, CSS3, React  DOM, react fether icon, react responsive modal
+
+Need to internet connection for fetching data
+
+
+1. Cloning The Project
+2. Open With VS Code
+3. Node Should be install already in system
+4. Open Console in vs code and run commond 'npm i' (Make Sure Internet connection is available )
+5. Run 'npm start' command 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -13,7 +13,7 @@ const PicLibView = (props) => {
     }
 
     const onClickSearchButton = () => {
-        myImageinput != "" && props.getImageList(myImageinput)
+        myImageinput !=="" && props.getImageList(myImageinput)
 
     }
     return (

@@ -1,0 +1,21 @@
+.empty-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.empty-container>h1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.camera-icon{
+    color: rgb(104, 99, 99);
+}

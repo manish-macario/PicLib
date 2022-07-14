@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Nunito&display=swap');
+
+
+
+.home-banner-container{
+
+    background-image:url('../../asset/banner.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+
+}
+
+.search-box-container{
+
+    background-color: #f3f1f173;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-text{
+
+   width: 47%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    background: linear-gradient(to right, #373838 35%, #737378 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+}
+
+.piclib-search-box{
+   
+    height: 7.5vh;
+    display: flex;
+    background-color: #fff;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+
+.search-icon{
+   cursor: pointer; 
+   padding-left: 1rem;
+   color:#737378
+}
+
+.search-box-txt{
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 6.7vh;
+    border: none;
+    outline: none;
+    resize: none;
+    text-align: center;
+    FONT-SIZE: 16px;
+    font-family: sans-serif;
+}
+
+button{
+    border-radius: 0rem 2rem 2rem 0rem;
+    height: 7.5vh;
+    width: 6rem;
+    cursor: pointer;
+    outline: none;
+    resize: none;
+    border: none;
+    text-align: center;
+    font-family: revert;
+    font-weight: 700;
+}
+.banner-quotes{
+    width: 48%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    background: #1d1e1e;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .home-banner-container{
+       height:93vh;
+       overflow: hidden;
+
+    }
+
+    .piclib-search-box{
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .home-banner-container{
+
+   
+       height:93vh;
+       overflow: hidden;
+
+    
+    }
+
+    .piclib-search-box{
+        width: 50%;
+     
+    }
+}
+
+@media (min-width: 1025px) {
+    .home-banner-container{
+
+       height:92vh;
+       overflow: hidden;
+
+    
+    }
+
+    .piclib-search-box{
+        width: 50%;
+        
+    
+        
+    }
+}
+

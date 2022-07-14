@@ -1,0 +1,62 @@
+.gallery-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    color: rgba(42, 40, 40, 0.496);
+    text-transform: capitalize;
+    padding-left: 5rem;
+    
+  }
+  
+  .grid-container {
+    columns: 5 200px;
+    column-gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .grid-container div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+  }
+  .grid-container div:hover img {
+    filter: grayscale(0);
+  }
+  .grid-container div:hover {
+    border-color: coral;
+  }
+  .grid-container div img {
+    width: 100%;
+cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+  }
+  .grid-container div p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .customModal {
+    background: #f9f9f900 !important;
+    background-color:  #f9f9f900;
+    box-shadow: none !important;
+   
+   
+  }
+
+  .react-responsive-modal-modal{
+    background-color: rgba(240, 248, 255, 0) !important;
+  }

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Nunito&display=swap');
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.piclib-nav{
+    display: flex;
+    height: 3rem;
+    background-color: #f3f1f1;
+    width: 100%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    flex-direction: row;
+}
+
+.piclib-logo{
+    width: 2rem;
+    height: 2rem;
+    padding: .5rem 0rem .5rem 2rem;
+}
+
+.piclib-title{
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    background: linear-gradient(to right, #373838 35%, #737378 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+ 
+
+}
+
+.title-link
+{
+    text-decoration: none;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
